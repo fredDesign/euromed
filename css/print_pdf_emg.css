@@ -1,0 +1,254 @@
+
+h1 {
+background-position:left top;
+background-repeat:no-repeat;
+color:#049FCB;
+font-family:helvetica,"arial black",arial;
+font-size:22pt;
+padding-left:8pt;
+padding-top:3pt;
+text-align:left;
+  -pdf-outline: false;
+  -pdf-level: 0;
+  -pdf-open: false;
+
+}
+h2{
+color:#076e8b;
+font-size:18pt;
+font-family:"arial black",arial;
+margin:0pt;
+margin-top:0pt;
+padding-left:6pt;
+padding-top:6pt;
+padding-bottom:0pt;
+margin-bottom:0pt;
+font-weight:bold;}
+
+h3 {
+font-family:arial, verdana, helvetica, sans-serif;
+padding-left:3pt;
+font-size:14pt;
+color:#000;
+padding-top:3pt;
+border-bottom:1pt solid #000;
+
+}
+
+h4 {
+color:#fff;
+font-size:13pt;	
+font-family:arial;
+margin-top:10pt;
+background-color:#111;
+margin-bottom:0pt;
+padding-top:3pt;
+}
+
+h5 {
+color:#af0161;
+font-size:11pt;
+padding-left:10pt;
+background:#e8edf0;
+border-bottom:1pt solid #999;
+margin-left:160px;
+}
+
+ h5 a,h5 a,h5 a {
+
+ }
+ 
+
+#header {display:none}
+#truck_header{
+text-align:right;
+padding-right:0cm;
+margin-right:0cm;
+
+background-color:#eaeaea;
+}
+#truck_header h1{
+text-align:right;
+color:#000;
+margin-left:0cm;
+padding-right:0cm;
+margin-right:0cm;
+padding-left:0cm;
+}
+div#footer {
+
+	color:#fff; 
+	background: #000 ;
+	height:20pt;
+background-repeat:repeat-x;
+ text-align:right;
+ padding-right:20pt;
+
+}
+
+.pane {text-align:center}
+.pane img{text-align:center}
+/***************************************************************/
+
+/***************Modules print*/
+.specTable {
+margin-bottom:10pt;
+margin-top:10pt;
+}
+#truck_search_widget{
+display:none;height:0pt;
+}
+.compare_bt {
+display:none;}
+
+.pdf_bt {
+display:none;}
+
+#truck_search_widget #mastercategory_list li{
+height:0pt
+}
+
+#category_list ul.menuTrucks ,#category_list ul.menuTrucks li{
+margin:0pt;display:inline;
+padding:0pt;
+}
+
+#category_list ul.menuTrucks li{
+display:none;height:0pt
+
+}
+
+#category_list ul.menuTrucks li{
+margin-bottom:8pt;
+display:inline;
+}
+
+#truck_data  {
+margin-top:30pt
+}
+
+#specifications {
+margin:0pt;
+border:0pt none #fff;
+}
+
+td.label_td {
+}
+tr.spec_group table {
+margin-bottom:8pt;padding-bottom:8pt;}
+
+	table.specTable  {
+margin:10pt;padding-bottom:0pt;border:3px solid #fff;
+	}
+	
+	table.prop ,table.prop tr,table.prop tr td {
+	border-bottom:1px solid #ccc;
+	}
+	table.specTable  tr td.two {
+	margin:0px;
+	padding:0px;
+	}
+
+	
+/*********************************************************/
+/* spe pdf */
+h4 {margin-bottom:0pt;
+margin-top:2pt
+}
+table.specTable {
+right:0pt;
+margin-bottom:10pt;
+
+}
+
+.truck_galery  {display:none
+}
+
+div.spec_group {
+margin-left:6pt;text-align:left}
+/***************/
+@page {
+
+  background-image: url(img/pdf/beandeau_gauche.jpg);
+	border-bottom-color:#000;
+border-bottom-style:solid;
+border-bottom-width:5pt;
+border-left-color:#000;
+border-left-style:solid;
+border-left-width:5pt;
+border-right-color:#000;
+border-right-style:solid;
+border-right-width:5pt;
+border-top-color:#000;
+border-top-style:solid;
+
+    size: landscape;
+	margin:0cm;margin-top:65pt;
+
+
+  
+    @frame top {
+    -pdf-frame-content: truck_header;
+    top: 0pt;
+    margin-left: 0pt;
+	    left: 142pt;
+    margin-right: 0cm;
+    height: 2cm;
+	color:#000;
+	background:#000000;
+border-bottom:2px solid #000000;
+  }
+  
+  @frame footer {
+
+    -pdf-frame-content: footer;
+    bottom: 0pt;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+    height:24pt;
+	background:#000;
+	color:#fff;
+  }
+  
+    @frame pager {
+
+    -pdf-frame-content: idpager;
+    bottom: 20pt;
+        right: 10pt;
+    margin-right: 0cm;
+    margin-bottom: 0cm;
+    height:24pt;
+	background:#fff;
+	color:#000;
+  }
+  
+}
+
+pdftoc {
+-pdf-outline :true;
+    color: #000;font-size:10pt;
+	left:140px;
+	top:30pt;
+	width:200pt;
+	text-align:left;
+	border-bottom:1px solid #ccc;
+}
+pdftoc.pdftoclevel0 {
+    font-weight: bold;
+    margin-top: 0;
+}
+pdftoc.pdftoclevel1 {
+    margin-left: 0;
+}
+pdftoc.pdftoclevel2 {
+    margin-left: 0;
+    font-style: italic;
+}
+
+table {
+    -pdf-keep-in-frame-mode: overflow;
+}
+
+ 
+/* Global formatting */
+.hidden {display:none;}

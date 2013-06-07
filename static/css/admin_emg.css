@@ -1,0 +1,8 @@
+/* Admin customization for emg */
+div#header { background-color: #000; }
+.module h2, .module caption, .inline-group h2 { background: #666; }
+a:link, a:visited { color:#6666AA; text-decoration:none; }
+
+/* Masonry */
+body.dashboard #content { width: 820px; }
+body.dashboard #content .module { width: 400px; margin-right: 5px; }

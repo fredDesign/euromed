@@ -1,0 +1,652 @@
+body {font-family:bitstream vera sans,arial,helvetica;
+font-size:12px;background:#ececec;}
+
+table {  }
+
+th { color: #ffffff; font-size: 14px; }
+
+td, th { text-align: left;vertical-align:top; }
+
+#truck_header ,#truck_data{color:#111;}
+
+#truck_data{background-color:#fff;text-align:center;}
+
+th.odd { background-color: #f9f9fa ; }
+th.even { background-color: #f1f3f4; }
+
+.spec_group { color: #eee;  font-size: 16px; }
+.spec_group table {margin:20px;margin-top:0px;}
+.spec_group h4 {
+font-size:16px;
+margin-left:20px;
+}
+
+.odd { background-color: #f9f9fa; }
+
+.even { background-color: #f1f3f4; }
+
+#truck_list 
+.odd { background-color: #0F2E41; }
+
+#truck_list 
+.even { background-color: #12364D; }
+
+/***truck ******/
+
+#truck_list .hoverTr {background-color:#004466 !important;}
+
+a:visited {
+color:#076E8B;
+text-decoration:none;
+}
+
+a, a:link {
+color:#076E8B;
+position:relative;
+text-decoration:none;
+}
+
+
+/*********col_left*****/
+#col_left{
+float:left;
+width:220px;
+}
+
+
+
+
+/*****Navigation  top**/
+
+#nav_widget #catalogue-camion-node  .endTrue  {
+display:none;
+}
+
+
+/*** *** *** *** *** widget truck *** *** *** *** ******/
+#truck_search_widget
+{
+display:block ;
+float:left;
+width:100%;
+height:100px;
+background: url(images/bg_widget.gif) repeat-x top left;
+}
+/**********content_truck */
+#content_truck {
+position:relative;
+float:left;
+clear:both;
+width:100%;
+background:#f8f6f7 url(images/bg_widg_bottom.jpg) bottom left repeat-x;
+}
+
+/**********mastercategory_list*/
+#mastercategory_list {
+float:left;
+height:52px;
+}
+
+#truck_search_widget  #mastercategory_list ul {
+display:block;
+float:left;
+height:30px;
+margin:0;
+padding:0 0px;
+}
+
+#truck_search_widget  #mastercategory_list ul li{
+
+background:transparent url(images/onglet_white.jpg) repeat-x scroll left bottom;
+display:block;
+float:left;
+height:29px;
+margin-right:5px;
+margin-top:1px;
+padding:0 8px;
+}
+#truck_search_widget  #mastercategory_list ul li{
+height:auto;
+background:transparent url(images/onglet_white.jpg) ;
+background:#116699;
+}
+
+#truck_search_widget  #mastercategory_list ul li.active{
+height:auto;
+background:#000 !important;
+}
+
+#mastercategory_list ul li a span{
+display:block;
+font-weight:bold;
+line-height:300%;
+}
+
+#truck_search_widget  #mastercategory_list ul li a{
+font-size:12px;
+text-transform:uppercase;
+color:#fff;
+text-decoration:none;
+}
+#truck_search_widget  #mastercategory_list ul li a:hover{
+color:#FFED00;
+text-decoration:undeline;
+}
+
+#truck_search_widget  #mastercategory_list ul li.active{
+background:#000 url(images/onglet_black.jpg) repeat-x top left;
+display:block ;
+float:left;
+}
+
+
+#truck_search_widget  #mastercategory_list ul li.active a{
+font-size:12px;
+text-transform:uppercase;
+color:#d2e1e6;
+}
+#truck_search_widget  #mastercategory_list ul li.active a:hover{
+color:#d2e1e6;
+}
+
+/**********category_list*/
+#truck_search_widget  #category_list ul {
+display:block;
+float:left;
+margin:0;
+padding:0px;
+clear:left;
+
+}
+#truck_search_widget  #category_list ul li{
+
+border-left:1px solid #666666;
+border-right:1px solid #444;
+border-top:1px solid #444;
+display:block;
+float:left;
+margin-top:8px;
+height:auto
+}
+
+#truck_search_widget  #category_list ul li.active{
+display:block ;
+float:left;
+padding:0px 4px;
+background:#ccc;
+margin-top:3px
+}
+
+#category_list {
+background-color:#CCCCCC;
+clear:left;
+display:block;
+float:left;
+height:48px;
+position:relative;
+}
+
+#category_list  {overflow:hidden;
+margin-left:5px;
+background:transparent repeat-x top left;
+width:90%;
+margin-top:10px;
+}
+/**********tucks_list*/
+
+
+
+
+
+/***liste content_truck *****/
+#content_truck #truck_list,#truck_list {
+
+width:100%;
+margin:0px;
+padding:0px;
+}
+#content_truck #truck_list tbody {
+
+width:100%;
+
+}
+
+#truck_list h2,#truck_list h2 a{
+font-size:12px;
+font-weight:bold;
+font-family:arial,helvetica;color:#079cc6;
+margin-top:0px;
+padding-top:0px;
+
+}
+
+.item_label {padding:4px;vertical-align:middle;}
+	
+.truck_item {
+width:100%;
+
+}
+
+.truck_item  td{
+padding-bottom:10px;
+padding-top:10px;
+
+
+}
+
+.info_el {
+font-size:11px;
+color:#eee;
+float:left;
+padding-left:10px;
+}
+
+.info_el label{
+clear:both;
+color:#A8E5FF;
+float:left;
+font-size:85%;
+margin:0;
+padding:0;
+text-align:left;
+width:100%;
+}
+.info_el p{
+clear:both;
+
+}
+
+.item_info {
+width:100%;
+padding-top:10px;
+}
+
+td.item_info .info_el:last-child {
+float:right;
+border-left:1px solid #000;
+width:150px;
+overflow:hidden;
+padding-left : 12px;
+}
+td.item_info .info_el:first-child,  tr td.item_info div.firstel {
+clear:both;width:50%;
+}
+ 
+#truck_data  .info_el {
+width:100%;
+}
+
+
+#truck_data  .info_el label{
+clear:left;
+color:#518696;
+float:left;
+font-size:100%;
+font-weight:bold;
+margin:11px 0 0 6px;
+padding:0;
+text-align:left;
+width:240px;
+
+}
+#truck_data  .info_el p{
+float:left;
+width:300px;
+
+}
+
+
+.go_truck, .go_truck:link,.go_truck:visited {
+background-color:#cee0e4;
+padding:3px;
+margin:5px;
+display:block;
+}
+.go_truck:hover {
+background-color:#E2007A;
+padding:3px;
+margin:5px;
+display:block;
+}
+.go_truck:hover span{
+color:#fff;
+
+}
+
+.go_truck span {
+color:#076E8B;
+display:block;
+font-size:10px;
+text-align:center;
+
+white-space:nowrap;
+}
+/*dropdown menu*/
+#truck_search_widget  #category_list ul li.inplace{
+display:none;
+}
+
+ul.menuTrucks { 
+position:absolute;
+display:block;float:left;
+z-index:10;
+}
+
+ul.menuTrucks li ,ul.menuTrucks li.active{ 
+float:left;
+background: url(images/onglet_black.jpg) repeat-x top left;
+color:#fff;
+height:21px;
+margin-left:5px;
+padding:0px;
+}
+	
+ul.menuTrucks li  a,
+ul.menuTrucks li  a:link,
+ul.menuTrucks li  a:visited{ 
+background-color:#000;
+font-size:11px;
+font-weight:normal;
+font-family:arial,helvetica;
+color:#ccc;
+float:left;
+line-height:300%;
+}
+
+ul.menuTrucks li  a.active,
+ul.menuTrucks li  a.active:link,
+ul.menuTrucks li  a.active:visited{ 
+
+font-weight:normal;
+font-family:arial,helvetica;
+
+color:#FFED00;
+float:left;
+text-decoration:none;
+
+}
+
+ul.menuTrucks li  a span{ 
+display:block;
+margin-top:1px;
+padding-left:15px;
+float:left;
+padding-right:15px;
+
+}
+ul.menuTrucks li  em{ 
+display:none;
+float:right;
+margin-top:5px;
+padding-right:15px;
+font-weight:bold;
+
+}
+
+#truck_search_widget #category_list ul.menuTrucks li.active {
+
+border-left:1px solid #666666;
+border-right:1px solid #444;
+border-top:1px solid #444;
+display:block;
+float:left;
+margin-top:8px;
+height:auto;
+padding:0px;
+
+}
+
+/**********contenu*/
+#mastercategory {
+display:block;
+float:left;
+clear:both;
+}
+
+#category {
+display:block;
+float:left;
+clear:both;
+width:100%;	
+position:relative;
+background-color:#000;
+}
+
+#category h1{
+display:none;
+}
+
+a.compare_bt ,a.compare_bt:link,a.compare_bt:visited{
+display:none;
+background:url(images/bt.png) no-repeat ;
+background-position:0 -20px;
+height:17px !important;
+height:20px;
+color:#fff;
+padding-top:3px;
+font-size:9px;
+position:absolute;
+right:20px;
+text-transform:uppercase;
+top:-60px;
+width:139px;text-align:center; 
+text-shadow : 0px 0px 2px #000
+; filter:
+    progid:DXImageTransform.Microsoft.MotionBlur(strength=0, direction=310)
+    progid:DXImageTransform.Microsoft.Blur(pixelradius=2)
+    progid:DXImageTransform.Microsoft.Wheel(duration=2);
+}
+
+a.compare_bt:hover{
+background:url(images/bt.png) no-repeat ;
+background-position:0 0;
+height:20px;
+}
+
+#accordion div.pane {display:none;}
+#specifications {
+width:100%;}
+
+
+
+/*****truck_item **/
+#content_truck h1 {
+
+color:#000;
+font-size:28px;
+line-height:100%;
+margin-top:20px;
+padding:4px;
+text-align:left;
+margin-bottom:0px;
+margin-top:0px;
+background-image:none;
+font-family:"bitstream vera sans",bitstream vera sans,arial,helvetica;
+}
+
+#truck_data h2 {
+border-bottom:1px solid #CCCCCC;
+border-top:1px solid #333333;
+color:#333;
+font-size:24px;
+line-height:100%;
+margin-top:20px;
+padding:4px;
+text-align:left;
+
+}
+
+#comparator h2 {
+border-bottom:0px solid #CCCCCC;
+border-top:2px solid #333333;
+color:#333;
+font-size:24px;
+line-height:100%;
+margin-top:20px;
+padding:4px;
+text-align:left;
+margin-bottom:0px;
+margin-top:0px;
+
+}
+
+
+#comparator h4{
+color:#000;
+
+}
+
+#comparator .even {
+border-bottom:1px solid #FFFFFF;
+}
+
+#comparator .odd {
+border-bottom:1px solid #FFFFFF;
+}
+
+  #comparator tr.odd td.even {
+background-color:#eeeef1;
+}
+  #comparator tr.odd td.odd {
+background-color:#F5F5F9;
+}
+
+
+
+#comparator .info_el{
+margin:3px;
+}
+#comparator .info_el p{
+color:#333355;
+font-size:11px;
+margin:0;
+}
+
+
+#comparator  #truck_header th{
+text-align:center;
+padding-bottom:10px;
+}
+.fancy_form #nlForm {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 260px;
+}
+.fancy_form {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+}
+.input[disabled="disabled"], input[disabled], input[disabled=""], input[disabled="true"] {
+    display: none;
+}
+.fancy_form label {
+    color: #666666;
+    margin-left: 4px;
+    margin-top: 5px;
+	width:200px;text-indent:0;    text-align: left;
+}
+#containerGlobal #footer .fancy_form p {
+    color: #EFEFEF;
+    margin: 0;
+}
+.fancy_form label.error {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #FF0000;
+    font-size: 11px;
+    left: 0;
+    line-height: 11px;
+    padding: 0;
+    position: absolute;
+    top: -20px;
+}
+.fancy_form #fieldWrapper > span {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+.fancy_form #fieldWrapper {
+    width: 220px;
+}
+.fancy_form #fieldWrapper .demi {
+    float: left;
+    margin-right: 10px;
+    width: 45%;
+}
+.fancy_form #fieldWrapper .you_are {
+    clear: both;
+    float: left;
+}
+#footer a.register_link {
+    color: #A7D9FF;
+    padding: 6px 0 0;
+}
+.fancy_form p {
+    margin: 10px 0;
+    position: relative;
+}
+.fancy_form p label {
+    left: 0;
+    position: absolute;
+    top: 0;
+	z-index:50;
+}
+.fancy_form #demoNavigation input {
+    width:auto;
+	}
+	
+.fancy_form #demoNavigation input {
+    width:auto;
+	}
+	
+.fancy_form #fieldWrapper input {
+    width:200px;
+	}
+	
+.fancy_form p br {
+    display: none;
+}
+.fancy_form input, .fancy_form input:focus {
+    background: none repeat scroll 0 0 #B2B8BD;
+    border: medium none;
+    border-radius: 4px 4px 4px 4px;
+    color: #11161B;
+    padding: 4px;
+}
+.fancy_form input:focus {
+    background: none repeat scroll 0 0 #D8DFE5;
+}
+.fancy_form input#id_last_name, .fancy_form input#id_first_name {
+    width: 95px;
+}
+p.you_are {
+    display: inline-block;
+    width: 280px;
+}
+input.submitNL {
+ background-color: #009EE0;
+    border: medium none;
+    color: #11161B;
+    line-height: 28px;
+    margin: 10px 0;
+	padding:0px;
+	height:24px;
+	width:24px;
+	text-align:center;
+	text-transform:uppercase;
+	padding : 0 4px;
+}
+
+.grid_2 {
+    width: 156px;
+	display:inline;    margin-right: 4px;
+    position: relative;
+	float:left;
+}
+.margering {
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+

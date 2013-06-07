@@ -1,0 +1,483 @@
+#msg {float:left;
+	margin-left:0px;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	z-index:99;
+}
+
+#msg #msg-links {
+clear:both;
+color:#FFFFFF;
+float:left;
+left:50%;
+margin-left:-480px;
+position:absolute;
+text-align:left;
+width:630px !important;
+padding-left:330px;
+top:54px;
+z-index:99;
+}
+
+#msg #msg-links .welcome{
+text-indent:-3000px;
+background-image:url(/css/img/welcome_en.gif);
+background-repeat:no-repeat;
+height:30px; width:450px;display:block;
+}
+
+body.fr #msg #msg-links .welcome{
+background-image:url(/css/img/welcome_fr.gif);
+
+}
+
+body.de #msg #msg-links .welcome{
+background-image:url(/css/img/welcome_de.gif);
+}
+body.nl #msg #msg-links .welcome{
+background-image:url(/css/img/welcome_hl.gif);
+
+}
+
+body.en #msg #msg-links .welcome{
+
+background-image:url(/css/img/welcome_en.gif);
+
+}
+
+#msg #msg-links .user{
+font-size:12px;font-weight:bold;
+padding:4px;
+font-family:verdana;
+}
+
+#msg-content {
+clear:both;
+margin-left:3px;
+padding-top:20px;
+overflow:hidden;
+width:335px;
+float:right;
+display:none;
+
+}
+
+#msg #msg-content img{
+position:relative;
+top:20px;
+}
+
+
+
+#nav_widget {
+display:block;
+width:630px;
+}
+
+ #nav_prem ul {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+#nav_prem li.selected a,#nav_prem li.selected a:link,#nav_prem li.selected a:visited {
+
+}
+#nav_prem li.selected a span{
+	/*background-image:url(/css/img/nav_bgright.gif);*/
+}
+
+
+
+
+
+
+
+
+#nav_prem {
+	
+	font-weight:bold;
+	font-size: 11px;
+	float: left;
+	
+
+}
+
+#nav_prem  ul.navNiv0 {  
+     list-style: none;  
+     padding: 0 0px;  
+     margin: 0;  
+     float: left;  
+     width: 630px;  
+     font-size: 1.2em;  
+ }  
+#nav_prem  ul.navNiv0 li {  
+     float: left;  
+     margin: 0;  
+     position: relative; /*--Declare X and Y axis base for sub navigation--*/  
+ }  
+#nav_prem ul.navNiv0 li a{  
+     color: #fff;  
+     display: block;  
+     text-decoration: none;  
+     float: left;  
+	 width:100%;
+
+ }  
+ 
+#nav_prem  ul.navNiv0 li a:hover{  
+     background: url(images/navNiv0_hover.gif) no-repeat center top;  
+     color: #fff50A;  
+ }  
+#nav_prem  ul.navNiv0 li a.niv1 span { /*--Drop down trigger styles--*/  
+     width: 100%;  
+     height: 34px;  
+     float: left;  
+ }  
+#nav_prem  ul.navNiv0 li span.subhover {background-position: center bottombottom; cursor: pointer;} /*--Hover effect for trigger--*/  
+#nav_prem  ul.navNiv0 li ul.navNiv1 {z-index:200;  
+     list-style: none;  
+     position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/  
+     left: 0; top: 30px;  
+     margin: 0; padding: 0;  
+     display: none;  
+     float: left;  
+     width: 110px;  
+	 box-shadow: 0px 7px 7px #000;
+-webkit-box-shadow: 0px 7px 7px #000;
+-moz-box-shadow: 0px 7px 7px #000;
+
+ }  
+ #nav_prem ul.navNiv1 li a span{  
+    padding-left:6px;
+ }  
+#nav_prem  ul.navNiv0 li ul.navNiv1 li{  
+	display:block;
+	float:left;
+	text-align:left;
+	
+     clear: both;  
+
+ }  
+ 
+ #nav_prem  li.niv2 a {  
+color:#FFFFFF;
+display:block;
+padding-bottom:6px;
+padding-left:3px;
+padding-top:4px;
+text-decoration:none;
+width:195px !important;
+
+ }  
+ 
+ 
+ 
+ #nav_prem  li.niv1{
+
+	width:110px;
+}
+ #nav_prem a.niv1 {
+ 	 position:absolute;
+	 z-index:99;
+	height:34px
+ }
+  .subhover {background-color:#e2007a}
+  
+ #nav_prem  #studios-et-plateaux-node{
+	background-image:url(img/nav/studios-plateaux.gif);
+	background-image:url(img/nav/studios-plateaux.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:195px !important;
+}
+ #nav_prem ul.navNiv0 li#studios-et-plateaux-node  a {
+ 
+	width:195px !important;
+ 
+ }
+
+ #nav_prem  #studios-et-plateaux-node.subhover{
+	background-image:url(img/nav/studios-plateaux.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:195px !important;
+}
+
+
+ #nav_prem  #moyens-techniques-node{
+	background-image:url("img/nav/moyens-techniques.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:195px !important;
+}
+ 
+ #nav_prem  #moyens-techniques-node.subhover{
+	background-image:url("img/nav/moyens-techniques.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:195px !important;
+}
+
+ #nav_prem  #activites-node{
+	background-image:url("img/nav/activites.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:110px !important;
+}
+ 
+ #nav_prem  #activites-node.subhover{
+	background-image:url("img/nav/activites.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:110px !important;
+}
+
+
+ #nav_prem  #contacts-node{
+	background-image:url("img/nav/contact.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:96px !important;
+}
+ 
+ #nav_prem  #contacts-node.subhover{
+	background-image:url("img/nav/contact.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:96px !important;
+}
+
+#nav_prem #plan-du-site-node,#nav_prem #mentions-legales-node,#nav_prem #actualites-node {
+display:none;
+}
+
+
+
+
+/*********english*****/
+
+ #nav_prem  #studios-and-stages-node{
+	background-image:url(img/nav/studios-and-stages.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:180px !important;
+}
+ #nav_prem ul.navNiv0 li#studios-and-stages-node  a {
+ 
+	width:210px !important;
+ 
+ }
+ #nav_prem li#studios-and-stages-node ul.navNiv1 {z-index:200;
+width: 225px !important;
+}
+ #nav_prem  #studios-and-stages-node.subhover{
+	background-image:url(img/nav/studios-and-stages.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:180px !important;
+}
+
+
+ #nav_prem  #facilities-node{
+	background-image:url("img/nav/facilities.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:125px !important;
+}
+ 
+ #nav_prem  #facilities-node.subhover{
+	background-image:url("img/nav/facilities.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:125px !important;
+}
+
+ #nav_prem li#facilities-node ul.navNiv1 {
+width: 225px !important;z-index:200;
+}
+
+ #nav_prem  #activities-node{
+	background-image:url("img/nav/activities.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:130px !important;
+}
+ 
+ #nav_prem  #activities-node.subhover{
+	background-image:url("img/nav/activities.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:130px !important;
+}
+
+
+ #nav_prem  #contact-us-node{
+	background-image:url("img/nav/contact-us.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:126px !important;
+}
+ 
+ #nav_prem  #contact-us-node.subhover{
+	background-image:url("img/nav/contact-us.png");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:34px;
+	margin-bottom:7px;
+	width:126px !important;
+}
+
+/**/
+
+
+
+
+ #nav_prem  li.niv1 span.sub {
+	text-indent:-3000px;
+}
+
+ #nav_prem  li.niv2 span.sub {
+	display:block;
+	text-indent:0px;
+
+}
+ #nav_prem  ul.navNiv1 {z-index:200;
+	background-image:url(images/nav/ech_nav.jpg);
+	background-position:left top;
+	background-repeat:repeat-x;
+	display:none;
+	font-family:arial,helvetica,verdana;
+	font-size:14px;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	width:195px !important;
+	background-color:#e2007a;
+}
+ #nav_prem  ul.navNiv2 {
+ display:none;
+ }
+ 
+ /****navNiv0_left *********/
+ 
+ .navNiv0_left {
+      list-style: none;  
+     padding: 0 0px;  
+     margin: 0;  
+	 }
+	 
+ul .navNiv0_left li {  
+     float: left;  
+     margin: 0;  
+     position: relative; 
+ }  
+    #nav_left li {
+	margin-bottom:2px !important;display:block;
+}
+  #nav_left  a.niv2, #nav_left  a.niv2:link{
+  display:block;
+color:#CCCCCC;
+font-size:11px;
+font-weight:normal;
+letter-spacing:0.1em;
+line-height:20px;
+text-align:right;
+text-decoration:none;
+text-transform:uppercase;
+padding-top:0;
+text-align:right;
+text-decoration:none;
+vertical-align:middle;
+font-weight:bold;
+margin:0px;
+}
+
+  #nav_left li.selected  a.niv2,  #nav_left li.selected   a.niv2:link{
+color:#62D1FF;
+}
+
+  #nav_left   a.niv2:hover {
+
+background-position:left top;
+background-repeat:no-repeat;
+color:#FFFFFF;
+
+}
+  #nav_left li a.niv3,  #nav_left li  a.niv3:link{
+color:#62D1FF;
+}
+
+#catalogue-camion-node .endTrue {
+display:none;}
+
+
+
+/************footer_menu****************/
+
+#footer_menu {
+display:block;
+float:right;
+font-size:10px;
+margin:20px 5px;
+padding:0;
+width:auto;
+
+	}
+	
+	
+#footer_menu  li{
+	margin:0px;padding:0px;
+	display:block;
+	float:left;margin-left:30px;
+	
+	}
+
+
+#site-map-node {display:none;}
+
+#site-map-node {display:none;}
+#legal-node{display:none;}
+#news-node {display:none;}
+ 

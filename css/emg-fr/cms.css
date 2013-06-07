@@ -1,0 +1,18 @@
+/*style cms*/
+
+#content_CMS img {
+
+	}
+	
+	
+#content_CMS img.right {
+float:right
+	}
+#content_CMS img.right {
+float:left
+
+	}
+#content_CMS {
+position:relative;
+font-family:'Lucida Grande',arial,'Bitstream Vera Sans','Trebuchet MS','Lucida Unicode Sans',sans-serif;font-size:13px;
+	}

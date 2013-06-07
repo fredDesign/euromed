@@ -1,0 +1,80 @@
+/********** formuaire de telechargement***********/
+#container form  {
+margin:0px;
+padding:0px;
+float:left;
+display:block;
+width:400px;
+}
+#container form  label ,#container form  span.step{
+clear:left;
+display:block;
+float:left;
+font-size:11px;
+font-weight:bold;
+margin-left:22px;
+width:126px;
+
+}
+
+
+#container form  p{
+padding:0px;
+float:left;
+display:block;
+clear:left;
+margin:0px 0 6px 6px;
+width:100%;
+}
+
+form input ,form textarea{
+width:342px;border:0px none #fff;
+display:block;
+float:right;
+margin-top:0px;
+padding:5px;
+}
+
+}
+
+form input[type=text] {
+background-image:url("/css/img/input_text.jpg");
+display:block;
+float:right;
+height:24px;
+}
+
+form input[type=file] {
+
+height:24px;
+}
+
+form input[type="submit"], input.submitto {
+background:none repeat scroll 0 0 #666666;
+color:#FFFFFF !important;
+display:block;
+float:left;
+font-family:'Century Gothic',Futura,'URW Gothic L',sans-serif;
+font-weight:bold;
+margin-bottom:30px;
+margin-right:6px;
+text-indent:0;
+text-transform:uppercase;
+width:auto;
+}
+form input[type=submit]:hover,input.submitto:hover{
+background:#000;
+color:#aa64a8;
+/*background-position:0px 30px ;*/
+cursor:pointer;
+}
+
+form textarea {
+height:74px;
+background-image:url(/css/img/input_textarea.jpg);
+}
+
+form textarea ,form [type=text] {color:#922;border:1px solid #efefef}
+form textarea:hover ,form [type=text]:hover {color:#000;border:1px solid #ccc}
+form textarea:focus ,form [type=text]:focus {color:#600;border:1px solid #aaa;border-top:1px solid #aaa;border-left:1px solid #999}
+form textarea:active ,form [type=text]:active {color:#722;border:1px solid #666}

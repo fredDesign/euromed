@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load menu_tags cms_tags %}
+
+{% block classe_body %}col2_left{% endblock %}
+
+
+{% block left_content %}
+<div id="gacontent">
+  <div id="nav_left">
+    <ul  class="navNiv0_left">
+      {% show_menu  2 2 0 1  %}
+    </ul>
+  </div>
+  <br/>
+  {% placeholder "left_info" %}
+</div>
+{% endblock %}
+		
+{% block content %}
+<div id="content_CMS">
+  {% placeholder "content" %}
+</div>
+{% endblock %}

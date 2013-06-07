@@ -1,0 +1,63 @@
+/* line 3, ../sass/jcarousel.scss */
+.carousel {
+  background: transpareny;
+  border: 0px solid #fff;
+  float: left;
+  clear: both;
+  padding: 5px;
+  margin: 0 0 20px;
+}
+
+/* line 14, ../sass/jcarousel.scss */
+.jcarousel-item h4 {
+  margin: 0 20px;
+  font-weight: 300;
+}
+/* line 15, ../sass/jcarousel.scss */
+.jcarousel-item p {
+  margin: 20px;
+}
+/* line 16, ../sass/jcarousel.scss */
+.jcarousel-item .read_more {
+  margin-right: 20px;
+  float: right;
+}
+
+/* boutons */
+/* line 20, ../sass/jcarousel.scss */
+#bouton-prev {
+  text-indent: -30000px;
+  top: 8em;
+  height: 28px;
+  width: 17px;
+  display: block;
+  position: absolute;
+  background: url('images/slideshow/small_left.png?1370352018');
+  left: -10px;
+}
+@media screen and (max-width: 1279px) {
+  /* line 20, ../sass/jcarousel.scss */
+  #bouton-prev {
+    left: 10px;
+    background: url('images/slideshow/small_left.png?1370352018');
+  }
+}
+
+/* line 35, ../sass/jcarousel.scss */
+#bouton-next {
+  text-indent: -30000px;
+  top: 8em;
+  height: 28px;
+  width: 17px;
+  display: block;
+  position: absolute;
+  background: url('images/slideshow/small_right.png?1370352018');
+  right: -10px;
+}
+@media screen and (max-width: 1279px) {
+  /* line 35, ../sass/jcarousel.scss */
+  #bouton-next {
+    right: 10px;
+    background: url('images/slideshow/small_right.png?1370352018');
+  }
+}

@@ -1,0 +1,89 @@
+body.nl,block_princ_NL {
+margin:0px;
+padding:0px;
+background-color:#EEEEEE;
+color:#4B5254;
+font-family:'Lucida Grande',Arial,'Bitstream Vera Sans','Trebuchet MS','Lucida Unicode Sans',sans-serif;
+font-size:13px;
+}
+
+
+div#block_princ_NL {
+background-color:#EEEEEE;
+height:auto;
+min-height:250px;
+padding-top:0;
+text-align:center;
+padding:40px;display:none;
+}
+h1 {
+color:#AAAAAA;
+font:32px/30pt helvetica,arial,tahoma,verdana;
+margin-top:3px;
+padding-left:0;
+z-index:1;
+white-space:nowrap;
+}
+
+.errorlist {
+margin-top:0px;
+padding-top:0px;
+text-align:left;
+list-style-type:none;margin-left:0px;padding-left:10px;
+}
+
+.errorlist li{
+margin-top:0px;
+padding-top:0px;
+text-align:left;
+list-style-type:none;
+}
+
+.register form {
+margin-top:13px;
+display:block;
+float:none;
+margin:0 auto;
+text-align:left;
+width:350px;
+
+}
+
+.register form span.star {
+float:left;
+font-weight:bold;
+font-size:20px;
+color:#660000;position:relative;
+top:-10px;
+}
+
+.register form p { clear:both;display:block;
+margin:0px;
+height:40px;
+float:left;
+position:relative; }
+
+.register label  {left:5px;
+position:absolute;
+top:5px;
+float:none;
+font-size:100%;
+margin:0;
+padding:0;
+text-align:left;
+width:auto;
+z-index:20;
+}
+#footer_txt.en .txt_law,#footer_txt.fr .txt_loi{
+background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    display: block;
+    float: left;
+    font-size: 11px;
+    padding: 20px;
+    text-align: justify;
+}
+#footer_txt.en .txt_loi,#footer_txt.fr .txt_law{
+    visibility:hidden;
+    display:none;
+}

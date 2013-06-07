@@ -1,0 +1,180 @@
+
+.slideOutTip{
+	/* The main wrapping div of the slideout tips */
+	position:absolute;
+	padding:0px;
+	top:0;
+	left:0;
+	background-color:#111;
+	font-size:13px;
+	color:white;
+	overflow:hidden;
+	height:auto;
+	background-color:#111;    border: 1px solid #888888;
+}   
+
+.slideOutTip:hover{
+	/* Applying a CSS3 outer glow on hover */
+	-moz-box-shadow:0 0 1px #999;
+	-webkit-box-shadow:0 0 1px #999;
+	box-shadow:0 0 1px #999;
+	-moz-opacity:1;
+}
+
+
+.slideOutTip:hover   p.tipTitle{
+	color:#FFED00;
+}
+
+/* The holder for the title and the icon: */
+.tipVisible{ cursor:pointer; height:14px; }
+
+.tipTitle{
+float:left;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+letter-spacing:1px;
+line-height:14px;
+padding-right:5px;
+margin:0px;	
+white-space:nowrap;
+}
+.slideOutContent p {
+white-space:nowrap;
+}
+
+
+.tipIcon{
+	width:auto;
+	height:auto;
+	float:left;
+	background-color:transparent;
+	margin-right:0px;
+	position:relative;
+	z-index:200;
+}
+
+/* Three color themes */
+.green .tipIcon{ background-color:transparent;  }
+.blue .tipIcon{ background-color:transparent;  }
+.red .tipIcon{ background-color:transparent;  }
+
+.plusIcon{
+	/* The plus icon */
+	width:13px;
+	height:13px;
+	background:url('img/plus.png') no-repeat center center;
+	margin:4px;
+	
+	/* Defining a CSS3 animation. Currently only works in Chrome and Safari */
+	-webkit-transition: -webkit-transform 0.2s linear;
+	-moz-transition: -moz-transform 0.2s linear;
+	transition: transform 0.2s linear;
+}
+
+.slideOutTip.isOpened{ z-index:10000; }
+
+.slideOutTip.isOpened .plusIcon{
+	/* Applying a CSS3 rotation  to the opened slideouts*/
+	-moz-transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	transform:rotate(45deg);
+}
+
+/* Special rules for the left and top - opening versions */
+
+.openLeft .tipIcon{
+	/* Floating the title and the icon to the right */
+	margin:0 0 0 0px;
+	float:left;
+}
+.openRight .tipIcon{
+	/* Floating the title and the icon to the right */
+	margin:0 0 0 0px;
+	float:right;
+}
+#bigcontent2left .openLeft p.tipTitle{ float:left; padding:0 0 0 5px; margin-top:0px;margin-bottom:0px;}
+#bigcontent2left .openRight p.tipTitle{ float:right; padding:0 0 0 5px; margin-top:0px;margin-bottom:0px;}
+.openLeft .slideOutContent{ margin-top:14px; }
+.openLeft.openTop .slideOutContent{	margin-top:0; }
+
+
+.slideOutContent{
+	/* Hiding the div with the slide out content: */
+	display:none;
+	padding:10px;
+	font-size:11px; 
+}
+
+/* Hiding the original paragraphs if they have not been replaced (JS disabled): */
+
+.main > p{ display:none; }
+
+
+
+/* The styles below are only necessary for the styling of the demo page: */
+
+.main{
+	height:550px;
+	margin:20px auto;
+	position:relative;
+	top:-90px;
+	right:-10px;
+	float:right;
+	width:520px;
+	background-image:url(img/emg_map_europe.png);
+	background-repeat:no-repeat;
+	z-index:200px;
+}
+
+.spaceBottom{
+	margin:0 0 10px;
+}
+
+.spaceTop{
+	margin:10px 0 0;
+}
+
+
+/****.StudioList li*/
+.bottomStudio  {
+position:absolute;
+top:350px; margin:40px;
+
+}
+
+.bottomStudio li {
+list-style-type:none;
+margin:0px;
+padding:3px;
+display:block;
+width:100%;
+}
+
+.bottomStudio li {
+list-style-type:none;
+width:30%;
+float:left;
+
+
+}
+.bottomStudio ul{
+border-bottom-color:#CCCCCC;
+border-bottom-style:solid;
+border-bottom-width:2px;
+
+border-top-color:#CCCCCC;
+border-top-style:solid;
+border-top-width:2px;
+display:block;
+height:auto;
+list-style-type:none;
+margin-bottom:0;
+margin-right:0;
+margin-top:0;
+overflow:auto;
+padding-bottom:20px;
+padding-left:30px;
+padding-right:0;
+padding-top:20px;
+}

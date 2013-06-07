@@ -1,0 +1,93 @@
+/* Navigation menu tree in pure css
+
+=navigation-tree($box_color: lime, $font_color: red, $size: 1.5em, $shadow: transparent)
+  list-style: none
+  margin: 0
+  padding: 0
+  font-size: $size
+  + *
+    clear: left
+  ul
+    display: block
+    list-style: none
+    margin: 0
+    padding: 0
+    z-index: 99
+    position: relative
+    overflow: visible
+    visibility: hidden
+    ul
+      width: 8em
+      position: absolute
+      top: 0
+      left: 95%
+      visibility: hidden
+      ul
+        width: 8em
+        position: absolute
+        top: 0
+        left: 95%
+        visibility: hidden
+      li:hover
+        ul
+          visibility: visible
+  > li
+    margin: 0
+    float: left
+    text-align: center
+    height: $size
+    ul
+      text-align: left
+      background: $shadow
+      li
+        position: relative
+        top: -4px
+        left: -4px
+    > ul
+      margin: -1px
+      position: relative
+      top: 4px
+      left: 4px
+  > li:hover /* Enlarger */
+    margin: -0.2em
+    padding: 0.2em
+    z-index: 2
+    > a
+      margin: -0.2em
+      padding: 0.2em 0.7em
+  li
+    display: block
+    position: relative
+    background: $box_color
+    color: $font_color
+    border: solid 1px $font_color
+    max-width: 8em
+    overflow: visible
+    li
+      a
+        line-height: normal
+        padding: 0.25em 0.5em
+    &.selected
+      background: $box_color - #222222
+    &.ancestor
+      background: $box_color - #111111
+  li:hover
+    background: $box_color + #222222
+    color: $font_color - #222222
+    ul
+      visibility: visible
+      ul
+        visibility: hidden
+        ul
+          visibility: hidden
+  a
+    display: block
+    text-decoration: none
+    padding: 0 0.5em
+    line-height: $size
+    background: transparent
+    overflow: hidden
+  ul
+    li:hover
+      ul
+        visibility: visible

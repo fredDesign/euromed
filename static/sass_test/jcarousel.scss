@@ -1,0 +1,50 @@
+@import "compass";
+
+      .carousel {
+        background: transpareny;
+        border: 0px solid #fff;   
+        float: left;
+        clear: both;
+        padding: 5px;
+        margin: 0 0 20px;
+      }
+	  
+ 
+ .jcarousel-item {
+ h4 {margin:0 20px;font-weight:300;}
+ p {margin:20px;}
+ .read_more {margin-right:20px;float:right;}
+ }
+ 
+/* boutons */
+#bouton-prev {
+		text-indent:-30000px;
+		top:8em;
+		height:28px;
+		width:17px;
+		display:block;
+		position:absolute;
+				@include background(image-url('slideshow/small_left.png'));
+				left: -10px;
+					@media screen and (max-width: 1279px) {
+						left: 10px;
+					@include background(image-url('slideshow/small_left.png'));
+					}
+				
+		}
+#bouton-next {
+		text-indent:-30000px;
+		top:8em;
+		height:28px;
+		width:17px;
+		display:block;
+		position:absolute;
+				@include background(image-url('slideshow/small_right.png'));
+				right: -10px;
+					@media screen and (max-width: 1279px) {
+						right: 10px;
+					@include background(image-url('slideshow/small_right.png'));
+					}
+				
+		}
+

@@ -1,0 +1,8 @@
+
+/*** patch en attendant le multiligual ***/
+.francais {
+display:none;
+}
+#ricontent ul li.francais {
+display:none;
+}

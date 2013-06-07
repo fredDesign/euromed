@@ -1,0 +1,99 @@
+@import "foundation/common/ratios";
+
+// Settings file containing Foundation defaults
+
+// Grid Settings
+
+$rowWidth: 972px;
+ $columnGutter: 1px;
+ $totalColumns: 24;  
+ $mobileTotalColumns: 4;
+$mobileTotalColumns: 4 !default;
+$blockGridElements: 24 !default; // Highest number of block grid elements, Maximum of 24 supported
+
+// Colors Settings
+
+// $mainColor: #2ba6cb;
+// $secondaryColor: #e9e9e9;
+$alertColor: rgba(#e20078, 1);
+// $successColor: #5da423;
+// $txtColor: #222;
+// $highlightColor: #ffff99;
+// $black: #000;
+// $white: #fff;
+// $shinyEdge: rgba(#fff, .5);
+// $darkEdge: rgba(#000, .2);
+ $dark: rgba(#02070a, .5);
+ $blue: rgba(#009ee0, 1);
+ $red: rgba(#e2007a, 1);
+ $yellow: rgba(#ffe300, 1);
+
+// Typography Settings
+
+$headerFontFamily: "Oswald", Helvetica, Arial, sans-serif;
+$headerFontWeight: bold;
+$headerFontColor: #fff;
+$headerFontStyle:none;
+// $bodyFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+// $bodyFontWeight: normal;
+ $bodyFontColor: #dbdbdb;
+ 
+// Button Settings
+
+// $buttonRadius: 3px;
+ $btnBase: 10px;
+
+// $tinyBtnBase: $btnBase - 5;
+ $smallBtnBase: $btnBase - 8;  
+// $largeBtnBase: $btnBase + 5;
+
+// Form Settings
+
+// $formSpacing: 12px;
+
+// Tab Settings
+
+// $tabHeight: 40px;
+
+// Nav Bar Settings
+
+// $navBarHeight: 40px;
+// $navFlyoutBaseWidth: 250px;
+$defaultFloat: left;
+$defaultOpposite:2;
+// Modular Scale
+// $ratio: $golden;
+ $baseFontSize: 14px;
+// $importantModNum: 44px;
+
+// Tooltip Settings
+// $hasTipBorderBottom: dotted 1px #ccc;
+// $hasTipFontWeight: bold;
+// $hasTipFontColor: #333;
+// $hasTipBorderBottomHover: dotted 1px darken($mainColor, 20%);
+// $hasTipFontColorHover: $mainColor;
+// $tooltipBackgroundColor: #000;
+// $tooltipBackgroundOpacity: 0.85;
+// $tooltipFontSize: 12;
+// $tooltipFontWeight: bold;
+// $tooltipFontColor: #fff;
+// $tapToCloseFontSize: 10;
+// $tapToCloseFontWeight: normal;
+// $tapToCloseFontColor: #888;
+// $tooltipFontSizeScreenSmall: 14;
+// $tooltipBackgroundOpacityScreenSmall: 0.85;
+
+
+
+// Top Bar Settings
+
+
+$topBarFirstFont: 'EB Garamond', 'Arapey', serif;;
+$topBarDropBgColor: #222 !default;
+$topBarDropLinkColor: #fff !default;
+$topBarDropToggleSize: 3px !default;
+$topBarDropToggleColor: #b9b9b9 !default;
+$topBarDropToggleAlpha: 0.5 !default;
+$topBarSearchWidth: 200px !default;
+$topBarBreakPoint: 980px !default; // Change to 9999px for always mobile layout
+$topBarNavToggleSize: 8px !default;

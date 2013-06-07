@@ -1,0 +1,273 @@
+2013-06-06 14:44:51 overwrite static/css/app.css 
+2013-06-06 14:44:52 overwrite static/css/jcarousel.css 
+2013-06-06 14:44:53 overwrite static/css/royalslider-preview.css 
+2013-06-06 14:44:54 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:44:54    remove H:/compass/euromedia/static/css/images/icon-s24e4fd996e.png
+2013-06-06 14:44:54    remove H:/compass/euromedia/static/css/images/icon-s3962fd2ea4.png
+2013-06-06 14:44:54    remove H:/compass/euromedia/static/css/images/icon-s605eb27d2b.png
+2013-06-06 14:44:54    remove H:/compass/euromedia/static/css/images/icon-s70c1d72eab.png
+2013-06-06 14:44:54    remove H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:44:54    remove H:/compass/euromedia/static/css/images/icon-sc73a4ea1bc.png
+2013-06-06 14:44:55    create H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:44:55 overwrite static/css/styles.css 
+2013-06-06 14:45:30 overwrite static/css/styles.css 
+2013-06-06 14:45:38 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:45:38 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:45:38 overwrite static/css/styles.css 
+2013-06-06 14:47:49 overwrite static/css/styles.css 
+2013-06-06 14:48:01 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:48:01 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:48:01 overwrite static/css/styles.css 
+2013-06-06 14:52:44 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:52:44 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:52:44 overwrite static/css/styles.css 
+2013-06-06 14:54:29 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:54:29 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:54:29 overwrite static/css/styles.css 
+2013-06-06 14:55:26 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:55:26 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:55:26 overwrite static/css/styles.css 
+2013-06-06 14:55:49 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:55:49 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:55:49 overwrite static/css/styles.css 
+2013-06-06 14:56:34 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:56:34 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:56:34 overwrite static/css/styles.css 
+2013-06-06 14:57:10 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:57:10 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:57:10 overwrite static/css/styles.css 
+2013-06-06 14:57:58 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 14:57:58 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 14:57:58 overwrite static/css/styles.css 
+2013-06-06 15:01:55 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:01:55 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:01:55 overwrite static/css/styles.css 
+2013-06-06 15:04:58 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:04:58 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:04:58 overwrite static/css/styles.css 
+2013-06-06 15:05:20 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:05:20 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:05:20 overwrite static/css/styles.css 
+2013-06-06 15:05:47 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:05:47 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:05:47 overwrite static/css/styles.css 
+2013-06-06 15:15:46 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:15:46 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:15:46 overwrite static/css/styles.css 
+2013-06-06 15:17:31 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:17:31 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:17:31 overwrite static/css/styles.css 
+2013-06-06 15:21:18     error static/sass/styles.scss (Line 291: Invalid CSS after "..._		font-weight:": expected pseudoclass or pseudoelement, was " 500;")
+2013-06-06 15:21:18 overwrite static/css/styles.css 
+2013-06-06 15:21:50 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:21:50 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:21:50 overwrite static/css/styles.css 
+2013-06-06 15:22:47 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:22:47 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:22:47 overwrite static/css/styles.css 
+2013-06-06 15:24:44 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:24:44 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:24:45 overwrite static/css/styles.css 
+2013-06-06 15:28:16 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:28:16 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:28:16 overwrite static/css/styles.css 
+2013-06-06 15:46:11 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:46:11 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:46:11 overwrite static/css/styles.css 
+2013-06-06 15:48:33     error static/sass/styles.scss (Line 467: Invalid CSS after "* line 448, .": expected class name, was "./sass/styles.s...")
+2013-06-06 15:48:33 overwrite static/css/styles.css 
+2013-06-06 15:48:54     error static/sass/styles.scss (Line 467: Invalid CSS after "* line 448, .": expected class name, was "./sass/styles.s...")
+2013-06-06 15:48:54 identical static/css/styles.css 
+2013-06-06 15:48:59 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:48:59 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:49:00 overwrite static/css/styles.css 
+2013-06-06 15:49:04 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:49:04 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:49:04 overwrite static/css/styles.css 
+2013-06-06 15:49:19 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:49:19 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:49:19 overwrite static/css/styles.css 
+2013-06-06 15:49:25     error static/sass/styles.scss (Line 471: Invalid CSS after "* line 448, .": expected class name, was "./sass/styles.s...")
+2013-06-06 15:49:25 overwrite static/css/styles.css 
+2013-06-06 15:49:38 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 15:49:38 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 15:49:39 overwrite static/css/styles.css 
+2013-06-06 16:05:44     error static/sass/styles.scss (Line 1118: Invalid CSS after "}": expected "}", was "")
+2013-06-06 16:05:44 overwrite static/css/styles.css 
+2013-06-06 16:06:23 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-06 16:06:23 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-06 16:06:24 overwrite static/css/styles.css 
+2013-06-07 09:50:32     error static/sass/foundation.scss (Line 126 of static/sass/foundation/components/modules/_topbar.scss: Undefined variable: "$topBarFirstFont".)
+2013-06-07 09:50:32    create static/css/foundation.css 
+2013-06-07 09:50:43 overwrite static/css/app.css 
+2013-06-07 09:50:43 overwrite static/css/styles.css 
+2013-06-07 09:51:24     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 09:51:24 overwrite static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:15:20 overwrite static/css/app.css 
+2013-06-07 10:15:20     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:15:20 overwrite static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:15:49 overwrite static/css/app.css 
+2013-06-07 10:15:49     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:15:49 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:16:59     error static/sass/app.scss (Line 126 of static/sass/foundation/components/modules/_topbar.scss: Undefined variable: "$topBarFirstFont".)
+2013-06-07 10:16:59 overwrite static/css/app.css 
+2013-06-07 10:16:59     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:16:59 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:17:10 overwrite static/css/app.css 
+2013-06-07 10:17:10     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:17:10 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:17:17 overwrite static/css/app.css 
+2013-06-07 10:17:17     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:17:17 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:17:17     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:17:17 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:25:17     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:25:17 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:25:31     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:25:31 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:34:32     error static/sass/app.scss (Line 126 of static/sass/foundation/components/modules/_topbar.scss: Undefined variable: "$topBarFirstFont".)
+2013-06-07 10:34:32 overwrite static/css/app.css 
+2013-06-07 10:34:32     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:34:32 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:35:08 overwrite static/css/app.css 
+2013-06-07 10:35:08     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:35:08 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:42:58 overwrite static/css/app.css 
+2013-06-07 10:42:58     error static/sass/foundation/functions/modular-scale.scss (Line 3: An @import loop has been found: H:/compass/euromedia/static/sass/foundation/functions/modular-scale.scss imports itself)
+2013-06-07 10:42:58 identical static/css/foundation/functions/modular-scale.css 
+2013-06-07 10:44:04 overwrite static/css/app.css 
+2013-06-07 10:44:07 identical static/css/app.css 
+2013-06-07 10:44:11 identical static/css/app.css 
+2013-06-07 10:44:14 identical static/css/app.css 
+2013-06-07 10:44:17 identical static/css/app.css 
+2013-06-07 10:44:20 identical static/css/app.css 
+2013-06-07 10:44:23 identical static/css/app.css 
+2013-06-07 10:44:26 overwrite static/css/app.css 
+2013-06-07 10:44:29 identical static/css/app.css 
+2013-06-07 10:44:32 identical static/css/app.css 
+2013-06-07 10:44:35 identical static/css/app.css 
+2013-06-07 10:44:38 identical static/css/app.css 
+2013-06-07 10:44:41 identical static/css/app.css 
+2013-06-07 10:44:44 identical static/css/app.css 
+2013-06-07 10:44:47 identical static/css/app.css 
+2013-06-07 10:44:50 identical static/css/app.css 
+2013-06-07 10:44:53 identical static/css/app.css 
+2013-06-07 10:44:55 identical static/css/app.css 
+2013-06-07 10:45:07 identical static/css/app.css 
+2013-06-07 10:46:12 overwrite static/css/app.css 
+2013-06-07 12:46:13 overwrite static/css/app.css 
+2013-06-07 14:06:12 overwrite static/css/app.css 
+2013-06-07 14:06:20 identical static/css/app.css 
+2013-06-07 14:08:01 overwrite static/css/app.css 
+2013-06-07 14:10:32 overwrite static/css/app.css 
+2013-06-07 14:12:36 overwrite static/css/app.css 
+2013-06-07 14:13:00 overwrite static/css/app.css 
+2013-06-07 14:13:38 overwrite static/css/app.css 
+2013-06-07 14:15:32 overwrite static/css/app.css 
+2013-06-07 14:17:01 overwrite static/css/app.css 
+2013-06-07 14:21:03 overwrite static/css/app.css 
+2013-06-07 14:41:59 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 14:41:59 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 14:42:00 overwrite static/css/styles.css 
+2013-06-07 14:44:07 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 14:44:07 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 14:44:07 overwrite static/css/styles.css 
+2013-06-07 14:44:22 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 14:44:22 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 14:44:22 overwrite static/css/styles.css 
+2013-06-07 14:45:14     error static/sass/styles.scss (Line 555: Invalid CSS after "  margin-bottom:": expected expression (e.g. 1px, bold), was "!0;")
+2013-06-07 14:45:14 overwrite static/css/styles.css 
+2013-06-07 14:45:19 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 14:45:19 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 14:45:19 overwrite static/css/styles.css 
+2013-06-07 15:39:16 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 15:39:16 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 15:39:16 overwrite static/css/styles.css 
+2013-06-07 15:43:55 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 15:43:55 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 15:43:55 overwrite static/css/styles.css 
+2013-06-07 16:08:54 overwrite static/css/app.css 
+2013-06-07 16:10:17     error static/sass/styles.scss (Line 1120: Invalid CSS after "}": expected "}", was "")
+2013-06-07 16:10:17 overwrite static/css/styles.css 
+2013-06-07 16:10:55 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 16:10:55 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 16:10:56 overwrite static/css/styles.css 
+2013-06-07 16:28:54 overwrite static/css/app.css 
+2013-06-07 16:30:14 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 16:30:14 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 16:30:14 overwrite static/css/styles.css 
+2013-06-07 16:32:02 overwrite static/css/app.css 
+2013-06-07 16:40:04 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 16:40:05 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 16:40:05 overwrite static/css/styles.css 
+2013-06-07 16:43:20 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 16:43:20 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 16:43:20 overwrite static/css/styles.css 
+2013-06-07 16:43:49 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 16:43:50 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 16:43:50 overwrite static/css/styles.css 
+2013-06-07 16:47:51 overwrite static/css/app.css 
+2013-06-07 16:48:08 overwrite static/css/app.css 
+2013-06-07 16:51:45 overwrite static/css/app.css 
+2013-06-07 16:51:50 identical static/css/app.css 
+2013-06-07 16:52:19     error static/sass/app.scss (Line 377 of static/sass/foundation/components/modules/_mqueries.scss: Invalid CSS: a space is required between a property and its definition
+when it has other properties nested beneath it.
+)
+2013-06-07 16:52:19 overwrite static/css/app.css 
+2013-06-07 16:52:21     error static/sass/app.scss (Line 377 of static/sass/foundation/components/modules/_mqueries.scss: Invalid CSS: a space is required between a property and its definition
+when it has other properties nested beneath it.
+)
+2013-06-07 16:52:21 identical static/css/app.css 
+2013-06-07 16:52:23     error static/sass/app.scss (Line 377 of static/sass/foundation/components/modules/_mqueries.scss: Invalid CSS: a space is required between a property and its definition
+when it has other properties nested beneath it.
+)
+2013-06-07 16:52:23 identical static/css/app.css 
+2013-06-07 16:52:25     error static/sass/app.scss (Line 377 of static/sass/foundation/components/modules/_mqueries.scss: Invalid CSS: a space is required between a property and its definition
+when it has other properties nested beneath it.
+)
+2013-06-07 16:52:25 identical static/css/app.css 
+2013-06-07 16:52:30 overwrite static/css/app.css 
+2013-06-07 16:52:32     error static/sass/app.scss (Line 377 of static/sass/foundation/components/modules/_mqueries.scss: Invalid CSS after "                @": expected identifier, was "a { @include cs...")
+2013-06-07 16:52:32 overwrite static/css/app.css 
+2013-06-07 16:52:37     error static/sass/app.scss (Line 378 of static/sass/foundation/components/modules/_mqueries.scss: Undefined mixin 'a'.)
+2013-06-07 16:52:37 overwrite static/css/app.css 
+2013-06-07 16:52:46     error static/sass/app.scss (Line 377 of static/sass/foundation/components/modules/_mqueries.scss: Invalid CSS after "...e border-radius": expected "}", was ":6px;")
+2013-06-07 16:52:46 overwrite static/css/app.css 
+2013-06-07 16:56:25     error static/sass/app.scss (Line 377 of static/sass/foundation/components/modules/_mqueries.scss: Invalid CSS after "...e border-radius": expected "}", was ":6px;")
+2013-06-07 16:56:25 identical static/css/app.css 
+2013-06-07 16:56:56 overwrite static/css/app.css 
+2013-06-07 16:57:01 overwrite static/css/app.css 
+2013-06-07 16:57:05     error static/sass/app.scss (Line 377 of static/sass/foundation/components/modules/_mqueries.scss: Undefined mixin 'box'.)
+2013-06-07 16:57:05 overwrite static/css/app.css 
+2013-06-07 16:57:11 overwrite static/css/app.css 
+2013-06-07 16:57:17 overwrite static/css/app.css 
+2013-06-07 17:00:41 overwrite static/css/app.css 
+2013-06-07 17:00:46 overwrite static/css/app.css 
+2013-06-07 17:01:04 overwrite static/css/app.css 
+2013-06-07 17:01:12 overwrite static/css/app.css 
+2013-06-07 17:01:17 overwrite static/css/app.css 
+2013-06-07 17:02:42 overwrite static/css/app.css 
+2013-06-07 17:02:47 overwrite static/css/app.css 
+2013-06-07 17:03:49 identical static/css/app.css 
+2013-06-07 17:04:40 overwrite static/css/app.css 
+2013-06-07 17:13:22 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 17:13:22 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 17:13:22 overwrite static/css/styles.css 
+2013-06-07 17:16:11 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 17:16:11 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 17:16:11 overwrite static/css/styles.css 
+2013-06-07 17:16:59 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 17:16:59 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 17:16:59 overwrite static/css/styles.css 
+2013-06-07 17:17:59 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 17:17:59 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 17:17:59 overwrite static/css/styles.css 
+2013-06-07 17:18:37 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 17:18:37 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 17:18:37 overwrite static/css/styles.css 
+2013-06-07 17:21:20 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 17:21:20 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 17:21:20 overwrite static/css/styles.css 
+2013-06-07 17:22:31 unchanged H:/compass/euromedia/static/css/images/logos_foot-s28dd0822c9.png
+2013-06-07 17:22:31 unchanged H:/compass/euromedia/static/css/images/icon-sa157202199.png
+2013-06-07 17:22:31 overwrite static/css/styles.css 

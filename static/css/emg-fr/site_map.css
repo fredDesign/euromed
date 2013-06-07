@@ -1,0 +1,221 @@
+/*
+	site map css stylesheet 
+	fred_emencia 
+*/
+
+#site_map {
+
+float:left;
+font-weight:bold;
+
+}
+
+
+/* ------------------------------------------------------------
+	Site Map Styles
+------------------------------------------------------------ */
+
+/* --------	Top Level --------- */
+
+
+#tree_map li {
+	width:20%;
+}
+
+#tree_map ul{
+list-style-type:none;
+}
+
+#tree_map li ul li {
+	width:100% !important;
+}
+
+#tree_map {
+	margin: 0;
+	float: left;
+	width: 100%;
+}
+#tree_map #home {
+	display: block;
+	float: none;
+	background: #ffffff url('img/site_map/L1-left.png') center bottom no-repeat;
+	position: relative;
+	z-index: 2;
+	padding: 0 0 30px 0;
+}
+#tree_map li {
+list-style-type:none;
+	float: left;
+	background: url('img/site_map/L1-center.png') center top no-repeat;
+	padding: 30px 0;
+	margin-top: -30px;
+}
+/************************/
+
+#tree_map li a {
+	margin: 0 20px 0 0;
+	padding: 10px 0;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: black;	
+	background: #c3eafb url('img/site_map/white-highlight.png') top left repeat-x;
+	border: 2px solid #b5d9ea;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; 
+	-moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */	
+}
+
+/****/
+
+#tree_map li a:hover {
+	background-color: #e2f4fd;
+	border-color: #97bdcf;
+}
+#tree_map li:last-child {
+	background: url('img/site_map/L1-right.png') center top no-repeat;
+}
+#tree_map li a:link:before,
+#tree_map li a:visited:before {
+	content: " "attr(href)" ";
+	display: block;
+	text-transform: uppercase;
+	font-size: 8px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-top: 0px;
+	word-wrap: break-word;
+	font-family:verdana;
+}
+#tree_map li a:link:before,
+#tree_map li a:visited:before {
+	color: #666;
+	font-size: 8px;
+}
+
+/* --------	Second Level --------- */
+
+#tree_map li li {
+	width: 100%;
+	clear: left;
+	margin-top: 0;
+	padding: 10px 0 0 0;
+	background: url('img/site_map/vertical-line.png') center bottom repeat-y;
+}
+#tree_map li li a {
+	border-color: #999;
+	background-color: #ddd;
+}
+#tree_map li li a:hover {
+	border-color: #666;
+	background-color: #ccc;
+}
+#tree_map li li:first-child {
+	padding-top: 30px;
+}
+#tree_map li li:last-child {
+	background: url('img/site_map/vertical-line.png') center bottom repeat-y;
+}
+#tree_map li li a:link:before,
+#tree_map li li a:visited:before {
+	color: #666;
+	font-size: 8px;
+}
+
+/* --------	Third Level --------- */
+
+#tree_map li li ul {
+	margin: 10px 0 0 0;
+	width: 100%;
+	float: right;
+	padding: 9px 0 10px 0;
+	background:  url('img/site_map/L3-ul-top.png') center top no-repeat;
+}
+#tree_map li li li {
+	background: url('img/site_map/L3-center.png') left center no-repeat;
+	padding: 5px 0;
+}
+#tree_map li li li a {
+	background-color: #eee;
+	border-color: #ccc;
+	font-size: 12px;
+	padding: 5px 0;
+	width: 80%;
+	float: right;
+}
+#tree_map li li li a:hover {
+	background-color: #ccc;
+	border-color: #aaa;
+}
+#tree_map li li li:first-child {
+	padding: 15px 0 5px 0;
+	background: url('img/site_map/L3-li-top.png') left center no-repeat;
+}
+#tree_map li li li:last-child {
+	background: url('img/site_map/L3-bottom.png') left center no-repeat;
+}
+#tree_map li li li a:link:before,
+#tree_map li li li a:visited:before {
+	color: #666;
+	font-size: 8px;
+}
+
+
+
+/* ------------------------------------------------------------
+	Utility Navigation
+------------------------------------------------------------ 
+
+#utilityNav {
+	float: right;
+	max-width: 50%;
+	margin-right: 10px;
+}*/
+#tree_map li#contact-node ,#tree_map li#plan-du-site-node,#tree_map li#mentions-legales-node,#tree_map li#actualites-node{
+	float: right;
+	width:16%;
+	clear:right;
+	margin-bottom: 10px;
+	background-image:none;
+	}
+
+
+#tree_map li#contact-node a,#tree_map li#plan-du-site-node a,#tree_map li#mentions-legales-node a,#tree_map li#actualites-node  a{
+	margin: 0 10px 0 0;
+	padding: 5px 10px;
+	display: block;	
+	border: 2px solid #e3ca4b;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	color: black;
+	background: #fff7aa url('images/white-highlight.png') top left repeat-x;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-webkit-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; 
+	-moz-box-shadow: rgba(0,0,0,0.5) 2px 2px 2px; /* FF 3.5+ */	
+}
+#tree_map li#contact-node a:hover ,#tree_map li#plan-du-site-node a:hover ,
+#tree_map li#mentions-legales-node a:hover ,#tree_map li#actualites-node  a:hover {
+	background-color: #fffce5;
+	border-color: #d1b62c;
+}
+
+#tree_map li#contact-node a:link:before,
+#tree_map li#contact-node a:visited:before ,
+
+#tree_map li#mentions-legales-node a:link:before,
+#tree_map li#mentions-legales-nodea:visited:before ,
+
+#tree_map li#actualites-node a:link:before,
+#tree_map li#actualites-node a:visited:before ,
+
+
+#tree_map li#plan-du-site-node a:link:before,
+#tree_map li#plan-du-site-node a:visited:before {
+	color: #ccae14;
+	font-size: 9px;
+	margin-bottom: 3px;
+}

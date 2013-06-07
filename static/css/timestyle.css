@@ -1,0 +1,263 @@
+
+
+	#timeline {
+
+		position: relative;
+		background: url('images/dot.gif') left 45px repeat-x;
+		width:auto;
+		overflow: hidden;
+	}
+		.time_schema {
+				width: auto;
+		height: 350px;
+		overflow: hidden;
+		height:334px;
+		background-color:#222;
+		background-image:url(images/back_time.jpg);
+		background-position:top right;
+		background-repeat:repeat;
+		}
+
+		#dates {
+			width: 2800px;
+			padding-left:460px;
+			overflow: hidden;
+			background:url(images/bar_time.png) no-repeat 120px center ;
+			height:334px;
+			padding-right:180px;
+		}
+		
+@media only screen and (max-width: 767px) {
+		#dates {
+			padding-left:220px;
+			background-position:-120px center;
+		}
+	}
+			#dates li {
+				list-style: none;
+				float: left;
+				width: 92px;
+				height: 334px;
+				font-size: 24px;
+				text-align: center;
+				position:relative;
+				-moz-box-sizing: border-box;
+				-webkit-box-sizing: border-box;
+				box-sizing: border-box; 
+
+			}
+			#dates li.bi_caps {
+				
+			}
+			#dates li.bottom_caps {
+			
+			}
+			#dates li.top_caps {
+				
+			}
+			
+			#dates li a{
+				 background: url("images/center_caps.png") no-repeat scroll center center transparent;
+			}
+			#dates li.bottom_caps a{
+				background: url('images/bottom_caps.png') center center  no-repeat;
+			}
+			#dates li.top_caps  a{
+				background: url('images/top_caps.png') center center  no-repeat;
+			}
+			#dates li.bi_caps a{
+				background: url("images/bi_caps.png") no-repeat scroll center center transparent;
+			}
+			#dates li a.selected{
+				background: url("images/center_caps_select.png") no-repeat scroll center center  rgba(200, 120, 180, 0.2);
+	
+			}
+			#dates li.bi_caps a.selected{
+				background: url("images/bi_caps_select.png") no-repeat scroll center center rgba(200, 120, 180, 0.2);
+			}
+			#dates li.bottom_caps a.selected{
+				background: url('images/bottom_caps_select.png') center center  no-repeat rgba(200, 120, 180, 0.2);
+			}
+			#dates li.top_caps  a.selected{
+				background: url('images/top_caps_select.png') center center  no-repeat rgba(200, 120, 180, 0.2);
+			}
+			
+				#dates a {
+				font-family:"Oswald",Helvetica,Arial,sans-serif;
+				text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+					color:#454545;
+					line-height: 620px;
+					display:block;
+					vertical-align: top;
+					height:334px;
+				}
+				#dates a.selected {
+			        font-size: 38px;
+					line-height: 600px;
+					color:#fff;
+				text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.6);
+				}
+		#dates li .logos_asso  {
+		
+				position:absolute;
+				z-index:80;
+				top:110px;
+				height:104px;
+				display:inline-block;
+				left:0px;
+				padding:0px;
+				opacity:0.5;
+		}
+		
+		#dates li.mono_caps .logos_asso  {
+		
+				position:absolute;
+				z-index:80;
+				top:180px;
+				height:104px;
+				display:inline-block;
+				left:0px;
+				padding:0px;
+				opacity:0.5;
+		}
+		
+		#dates li.selected .logos_asso  {
+		
+				opacity:1;
+		}
+		#dates li.bottom_caps .logos_asso  {
+		
+				position:absolute;
+				z-index:80;
+				display:inline-block;
+				left:0px;
+				padding:0px;
+		}
+		
+		#dates li.center_caps .logos_asso  {
+		
+				top:0px;
+				left:0px;
+				padding:0px;
+		}
+		
+		
+		.time_info {
+		position:relative;
+		width:680px;
+		height:256px;
+		overflow: hidden;
+		top:-64px;
+		}
+		
+		#issues {
+			width: 700px;
+			height: 256px;
+			overflow: hidden;
+			position:absolute;
+		}	
+			#issues ul {
+			position:absolute;
+			top:-20px;
+			}
+			#issues li {
+				width: 700px;
+				height: 256px;
+				list-style: none;
+				float: left;
+			}
+			#issues li img {
+					-webkit-transform: scale(0.8,0.8);
+					-moz-transform: scale(0.8,0.8);
+				    -o-transform: scale(0.8,0.8);
+				    -ms-transform: scale(0.8,0.8);
+				    transform: scale(0.8,0.8);
+				}
+				
+				#issues li.selected img {
+					-webkit-transform: scale(1,1);
+					-moz-transform: scale(1,1);
+				    -o-transform: scale(1,1);
+				    -ms-transform: scale(1,1);
+				    transform: scale(1,1);
+				}
+				#issues li img {
+					float: left;
+					
+					background: transparent;
+					-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE 8 */   
+					filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);/* IE 6 & 7 */      
+					zoom: 1;
+					-webkit-transition: all 2s ease-in-out;
+					-moz-transition: all 2s ease-in-out;
+					-o-transition: all 2s ease-in-out;
+					-ms-transition: all 2s ease-in-out; 
+					transition: all 2s ease-in-out;
+					-webkit-transform: scale(0.7,0.7);
+					-moz-transform: scale(0.7,0.7);
+				    -o-transform: scale(0.7,0.7);
+				    -ms-transform: scale(0.7,0.7);
+				    transform: scale(0.7,0.7);
+				}
+				#issues li h1 {
+					color: #ffcc00;
+					font-size: 48px;
+					margin: 20px 0;
+					text-shadow: #000 1px 1px 2px;
+				}
+				#issues li p {
+					font-size: 14px;
+					margin-right: 70px;
+					font-weight: normal;
+					line-height: 22px;
+					text-shadow: #000 1px 1px 2px;
+				}
+		
+		#grad_left,
+		#grad_right {
+			width: 100px;
+			height: 334px;
+			position: absolute;
+			top: 0;
+		}
+			#grad_left {
+		        left: 0;
+		        /*background: url('images/grad_left.png') repeat-y;*/
+			}
+			#grad_right {
+		        right: 0;
+		        /*background: url('images/grad_right.png') repeat-y;*/
+			}
+		
+		#next,
+		#prev {
+			position: absolute;
+			font-size: 70px;
+			top:1px;
+			height: 32px;
+			width: 48px;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			text-indent: -9999px;
+			overflow: hidden;
+			z-index:90;
+			background-color:#000;
+		}
+			#next:hover,
+			#prev:hover {
+				/*background-position: 0 -76px;*/
+			}
+			#next {
+				right: 1px;
+				background-image: url('images/bar_next.png');
+			background-position: 0 0;
+			}
+			#prev {
+				right: 48px;
+				background-image: url('images/bar_prev.png');
+			background-position: 100% 0;
+			}
+				#next.disabled,
+				#prev.disabled {
+					opacity: 0.2;
+				}

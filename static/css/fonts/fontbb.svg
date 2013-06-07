@@ -1,0 +1,38 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg>
+<metadata>
+Created by FontForge 20110222 at Tue Apr 23 01:57:34 2013
+ By Orthosie Webmaster
+</metadata>
+<defs>
+<font id="SVGFont1Regular" horiz-adv-x="1024" >
+  <font-face 
+    font-family="SVGFont1Regular"
+    font-weight="400"
+    font-stretch="normal"
+    units-per-em="1024"
+    panose-1="2 0 5 9 0 0 0 0 0 0"
+    ascent="819"
+    descent="-205"
+    bbox="12 885 103 1008"
+    underline-thickness="0"
+    underline-position="0"
+    unicode-range="U+0061-0062"
+  />
+<missing-glyph 
+d="M66 934q-6 0 -6 -6v-37q0 -6 6 -6h31q6 0 6 6v20h-21v23h-16zM84 934v-21h19v1q0 2 -8 10.5t-11 9.5zM78 906h2h1h3v-8h5l-8 -11l-8 11h5v8z" />
+    <glyph glyph-name=".notdef" 
+d="M66 934q-6 0 -6 -6v-37q0 -6 6 -6h31q6 0 6 6v20h-21v23h-16zM84 934v-21h19v1q0 2 -8 10.5t-11 9.5zM78 906h2h1h3v-8h5l-8 -11l-8 11h5v8z" />
+    <glyph glyph-name=".notdef" 
+d="M66 934q-6 0 -6 -6v-37q0 -6 6 -6h31q6 0 6 6v20h-21v23h-16zM84 934v-21h19v1q0 2 -8 10.5t-11 9.5zM78 906h2h1h3v-8h5l-8 -11l-8 11h5v8z" />
+    <glyph glyph-name=".null" horiz-adv-x="0" 
+ />
+    <glyph glyph-name="nonmarkingreturn" 
+ />
+    <glyph glyph-name="eye" unicode="a" 
+d="M30 1008q-4 0 -8.5 -3l-7.5 -5l-2 -3q8 -11 18 -11q4 0 8.5 3t6.5 5l3 3q-8 11 -18 11zM30 988q-4 0 -7.5 2.5t-4.5 4.5l-2 2q6 9 14 9q3 0 6.5 -2.5t5.5 -4.5l2 -2q-6 -9 -14 -9z" />
+    <glyph glyph-name="dl" unicode="b" 
+d="M66 958q-6 0 -6 -6v-37q0 -6 6 -6h31q6 0 6 6v20h-21v23h-16zM84 958v-21h19v1q0 2 -8 10.5t-11 9.5zM78 930h2h1h3v-8h5l-8 -11l-8 11h5v8z" />
+  </font>
+</defs></svg>

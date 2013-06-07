@@ -1,0 +1,393 @@
+#nav_prem  ul.navNiv0 {  
+     list-style: none;  
+     padding: 0 0px;  
+     margin: 0;  
+     float: left;  
+     width: 700px;  
+     font-size: 1.2em;  
+ }  
+ 
+ #langForm {
+ display:block;
+ float:left;
+ width:16px;
+ }
+ 
+#nav_prem  ul.navNiv0 li {  
+     float: left;  
+     margin: 0;  
+     position: relative; /*--Declare X and Y axis base for sub navigation--*/  
+ }  
+#nav_prem  ul.navNiv0 li a{  
+     color: #fff;  
+     display: block;  
+     text-decoration: none;  
+     float: left;  
+	 width:110px;
+ }  
+#nav_prem  ul.navNiv0 li a:hover{  
+     background: url(images/navNiv0_hover.gif) no-repeat center top;  
+     color: #fff50A;  
+ }  
+#nav_prem  ul.navNiv0 li a.niv1 span { /*--Drop down trigger styles--*/  
+     width: 100%;  
+     height: 35px;  
+     float: left;  
+     background: url(images/subnav_btn.gif) no-repeat center top;  
+ }  
+#nav_prem  ul.navNiv0 li span.subhover {background-position: center bottombottom; cursor: pointer;} /*--Hover effect for trigger--*/  
+#nav_prem  ul.navNiv0 li ul.navNiv1 {  
+z-index:99;
+     list-style: none;  
+     position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/  
+     left: 0; top: 66px;  
+     margin: 0; padding: 0;  
+     display: none;  
+     float: left;  
+     width: 110px;  
+	 border-bottom:3px solid #000;font-weight:normal;
+ }  
+#nav_prem  ul.navNiv0 li ul.navNiv1 li{  
+	display:block;
+	float:left;
+	text-align:left;
+	
+     clear: both;  
+
+ }  
+ 
+ #nav_prem  li.niv2 a {  
+color:#FFFFFF;
+display:block;
+padding-bottom:2px;
+padding-left:3px;
+padding-top:2px;
+text-decoration:none;
+width:110px !important;
+ }  
+ 
+ 
+ 
+ #nav_prem  li.niv1{
+
+	width:110px;
+}
+ #nav_prem a.niv1 {
+	height:70px
+ }
+ #nav_prem  #euro-media-group-node{
+	background-image:url("images/nav/bts_interne_10.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+ 
+ #nav_prem  #euro-media-group-node.subhover{
+	background-image:url("images/nav/bts-on_09.jpg");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+
+
+
+ 
+ #nav_prem  #services-node{
+	background-image:url("images/nav/bts_interne_12.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+ 
+ #nav_prem  #services-node.subhover{
+	background-image:url("images/nav/bts2-on_11.jpg");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+
+
+
+ 
+ #nav_prem  #marche-et-references-node{
+	background-image:url("images/nav/bts_interne_14.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:178px !important;
+}
+ 
+ #nav_prem  #marche-et-references-node.subhover{
+	background-image:url("images/nav/bts_on_13.jpg");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:178px !important;
+}
+
+
+
+ 
+ #nav_prem  #nos-societes-node{
+	background-image:url("images/nav/bts_interne_16.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+	
+}
+ 
+ #nav_prem  #nos-societes-node.subhover{
+	background-image:url("images/nav/bts_on_15.jpg");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+
+
+
+ 
+ #nav_prem  #espace-presse-node{
+	background-image:url("images/nav/bts_interne_18.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+ 
+ #nav_prem  #espace-presse-node.subhover{
+	background-image:url(images/nav/bts_on_17.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+
+
+
+ #nav_prem  #contacts-node{
+	background-image:url("images/nav/contacts_nav.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+ 
+ #nav_prem  #contacts-node.subhover{
+	background-image:url(images/nav/contacts_nav.jpg);
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:127px !important;
+}
+ #nav_prem #plan-du-site-node , #nav_prem #mentions-legales-node,
+ #nav_prem #legal-node ,#nav_prem #site-map-node{display:none;}
+
+ #nav_prem  #portfolio-node{
+	background-image:url("images/nav/bts_en_off_14.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:135px !important;
+}
+ 
+ #nav_prem  #portfolio-node.subhover{
+	background-image:url("images/nav/bts_en_on_14.jpg");
+
+}
+
+ #nav_prem  #our-companies-node{
+	background-image:url("images/nav/bts_en_off_17.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+	width:135px !important
+}
+ 
+ #nav_prem  #our-companies-node.subhover{
+	background-image:url("images/nav/bts_en_on_17.jpg");
+
+}
+
+ #nav_prem  #press-room-node{
+	background-image:url("images/nav/bts_en_off_19.gif");
+	background-position:left top;
+	background-repeat:no-repeat;
+	height:60px;
+	margin-bottom:7px;
+}
+ 
+ #nav_prem  #press-room-node.subhover{
+	background-image:url("images/nav/bts_en_on_19.jpg");
+
+}
+
+
+ 
+ #nav_prem  #contact-node{
+
+}
+ 
+ #nav_prem  #contact-node.subhover{
+
+}
+
+ #nav_prem  li.niv1 span.sub {
+	display:none;
+	text-indent:-3000px;
+}
+
+ #nav_prem  li.niv2 span.sub {
+	display:block;
+	text-indent:0px;
+
+}
+ #nav_prem  ul.navNiv1 {
+	background-image:url(images/nav/ech_nav.jpg);
+	background-position:left top;
+	background-repeat:repeat-x;
+	display:none;
+	font-family:arial,helvetica,verdana;
+	font-size:10px;
+	list-style-type:none;
+	margin:0 auto;
+	padding:0;
+	width:110px !important;
+	background-color:#086b88;
+}
+ #nav_prem  ul.navNiv2 {
+ display:none;
+ }
+ 
+ /****navNiv0_left *********/
+ .navNiv0_left {
+      list-style: none;  
+     padding: 0 0px;  
+     margin: 0;  
+	 }
+ul .navNiv0_left li {  
+     float: left;  
+     margin: 0;  
+     position: relative; /*--Declare X and Y axis base for sub navigation--*/  
+ }  
+  
+  #nav_left  a.niv2, #nav_left  a.niv2:link{
+  background-color: #FFFFFF;
+    background-image: url("images/nav/nav_off.jpg");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    border-bottom: 1px solid #CCCCCC;
+    color: #111;
+    display: block;
+    font-family: arial,verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 4px;
+    text-decoration: none;
+    width: 155px;
+}
+  #nav_left  li.niv3{
+
+
+margin-top:8px;
+margin-bottom:4px;
+
+}
+
+  #nav_left li.selected  a.niv2,  #nav_left li.selected   a.niv2:link{
+background-image:url(images/nav/nav_on.jpg);
+color:#FFFFFF;
+}
+  #nav_left a.niv2.selected{
+    border-bottom: 1px solid #CCCCCC;
+background-image:url(images/nav/nav_on.jpg);
+background-position:left top;
+background-repeat:no-repeat;
+color:#FFFFFF;
+display:block;
+font-family:arial,verdana;
+font-size:12px;
+font-weight:bold;
+    padding-bottom: 3px;
+  background-color: #009dc8;
+margin:0;
+padding-left:20px;
+padding-top:4px;
+text-decoration:none;
+width:155px;
+}
+  #nav_left   a.niv2:hover {
+    border-bottom: 1px solid #CCCCCC;
+background-image:url(images/nav/nav_on.jpg);
+background-position:left top;
+background-repeat:no-repeat;
+color:#FFFFFF;
+display:block;
+font-family:arial,verdana;
+font-size:12px;
+font-weight:bold;
+    padding-bottom: 3px;
+  background-color: #009dc8;
+margin:0;
+padding-left:20px;
+padding-top:4px;
+text-decoration:none;
+width:155px;
+}
+
+#catalogue-camion-node .endTrue {
+display:none;}
+
+ul.navNiv2{
+padding-left:20px;
+list-style-type: none;
+}
+ul.navNiv2 a.niv3{
+color:#000000;
+}
+ul.navNiv2 a.niv3:hover,ul.navNiv2 a.niv3.selected{
+color:#079cc6;
+}
+
+/************footer_menu****************/
+
+#footer_menu {
+display:block;
+float:right;
+font-size:10px;
+margin:5px;
+padding:0;
+width:auto;
+	
+	}
+	
+	
+#footer_menu  li{
+	margin:0px;padding:0px;
+	display:block;
+	float:left;margin-left:15px;
+
+	}
+

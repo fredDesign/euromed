@@ -1,0 +1,195 @@
+@import "compass";
+@import "susy";
+
+/* ======================== Sliders ===================== */
+/*=======Nav=====*/
+.royalSlider.default .royalControlNavOverflow {
+	top:0px;
+	margin-top:30px;
+}
+
+
+#slider-ajax-container {
+	margin: 0 auto;	
+	height: 400px;
+}
+
+#banner-rotator,
+#image-gallery,
+#content-slider {	
+	width: 100%;
+	height: 100%;
+	
+}
+.royalSlider.default .arrow.right {
+    background-position: left top;
+    right: 0;
+	background-color:transparent;
+}
+.royalSlider.default .arrow.disabled{
+
+	background:transparent  !important;
+}	
+.royalSlider.default .arrow.left {
+    background-position: left top;
+    left: 0;
+}
+
+		
+#banner-rotator {
+	width: 100%;
+	height: 442px;
+
+				@media screen and (max-width: 980px) {
+						
+				height: 392px;
+					}
+					
+				@media screen and (max-width: 767px) {
+						
+				height: 260px;
+					}
+					
+				@media screen and (max-width: 450px) {
+						
+				height: 180px;
+					}
+	margin: 0 auto;
+}
+
+
+
+#banner-rotator .royalCaptionItem {
+
+}
+#banner-rotator {
+
+				*{
+				@media screen and (max-width: 767px) {
+						font-size:11px;
+					}
+					}
+	.sgMidText {	
+	font-size:1.5em;
+	line-height:1em;
+	letter-spacing:-1px;
+	font-weight: 400; 
+	
+				
+	}
+	.sgSmallText {	
+	font-size:0.8em;
+	}
+	.tintButton {			
+	background:no-repeat 0 0;
+	background-color:#fff;
+	color:#009ee0;
+	cursor:pointer;
+	padding:5px 12px;
+	text-transform:normal;
+	@include border-radius(0px); 
+	@include transition-property(background-color);
+	@include transition-duration(.2s);
+	@include transition-timing-function(ease-out); 
+	text-decoration: none;
+	font-size:18px;
+	font-family:'open sans',sans sherif;
+	font-weiht:900;
+	font-style:italic;
+	@include box-shadow( #111111 0 0 12px ); 
+				@media screen and (max-width: 767px) {
+						font-size:11px;
+					}
+	}
+	.tintButton:hover {
+	background-color:#009ee0;
+	color:#fff;
+	}
+	.royalCaption {
+	position:absolute;		
+	top:0;
+	left:0;
+	}	
+		
+		
+		
+	.royalControlNavCenterer {
+	background:transparent;
+	left:auto;
+	}
+}
+.royalSlider.default .royalControlNavOverflow {
+bottom:10px;
+top:auto;
+margin-top:0;
+text-align:center;
+}
+.royalSlider .royalControlNavContainer {
+	float:none;
+    display:inline-block;
+	left:auto;
+	}
+	
+	
+.royalSlider {
+	&.default{
+		.arrow {
+		margin-top:-53px;
+		height:103px;
+		width:58px;
+		
+				@media screen and (max-width: 1279px) {
+		height:60px;
+		width:34px;
+					}
+			&.left {
+				@include background(image-url('slideshow/arrow_left.png'));
+				left: -30px;
+				@media screen and (max-width: 1279px) {
+					@include background(image-url('slideshow/arrow_left_min.png'));
+						left: 10px;
+					}
+				@media screen and (max-width: 767px) {
+							display:none;
+					}
+				}
+			&.right {
+				@include background(image-url('slideshow/arrow_right.png'));
+				right: -30px;
+					@media screen and (max-width: 1279px) {
+						right: 10px;
+					@include background(image-url('slideshow/arrow_right_min.png'));
+					}
+				@media screen and (max-width: 767px) {
+							display:none;
+					}
+				}
+			}
+		}
+		
+	.royalSlide {
+		@include background(image-url('slideshow/ombre.png'));
+		background-position:-20px 50%;
+		
+				@media screen and (max-width: 767px) {
+							background:transparent;
+					}
+		}
+	}
+/* ======================== Sliders END ===================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

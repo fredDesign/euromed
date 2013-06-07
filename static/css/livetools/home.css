@@ -1,0 +1,30 @@
+
+body {
+
+background:#030c18 url("images/sky_internal.jpg");
+background-repeat:repeat-x;
+background-position:top center;
+
+}
+.back-dyn, #root2 { overflow:hidden;}
+ #root2 { height:654px;}
+ 
+ #containerGlobal.container_12 { margin-bottom:0px;
+ }
+ .entry-content {
+ font-size:12px;line-height: 14px;
+ }
+ #containerGlobal p {
+ font-size:12px;line-height: 14px;
+ }
+ 
+ 
+ .container_12 .grid_50prc {
+    display: inline;
+    float: left;
+    margin-left: 30px;
+    width: 460px;
+}
+.container_12 .grid_4 {
+    width: 280px;
+}

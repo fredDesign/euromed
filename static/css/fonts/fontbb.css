@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SVGFont1Regular';
+    src: url('fontbb.eot');
+    src: url('fontbb.eot') format('embedded-opentype'),
+         url('fontbb.woff') format('woff'),
+         url('fontbb.ttf') format('truetype'),
+         url('fontbb.svg#SVGFont1Regular') format('svg');
+}
