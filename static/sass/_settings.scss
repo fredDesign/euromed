@@ -28,6 +28,12 @@ $alertColor: rgba(#e20078, 1);
  $red: rgba(#e2007a, 1);
  $yellow: rgba(#ffe300, 1);
 
+
+
+$screenSmall: 768px !default;
+$screenMedium: 1279px !default;
+$screenXlarge: 1441px !default;
+
 // Typography Settings
 
 $headerFontFamily: "Oswald", Helvetica, Arial, sans-serif;
@@ -103,5 +109,5 @@ $topBarDropToggleSize: 3px !default;
 $topBarDropToggleColor: #b9b9b9 !default;
 $topBarDropToggleAlpha: 0.5 !default;
 $topBarSearchWidth: 200px !default;
-$topBarBreakPoint: 800px !default; // Change to 9999px for always mobile layout
+$topBarBreakPoint: 768px !default; // Change to 9999px for always mobile layout
 $topBarNavToggleSize: 8px !default;

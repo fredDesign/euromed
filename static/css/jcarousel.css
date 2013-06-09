@@ -32,14 +32,14 @@
   width: 17px;
   display: block;
   position: absolute;
-  background: url('images/slideshow/small_left.png?1370352018');
+  background: url('images/slideshow/small_left.png?1370689691');
   left: -10px;
 }
 @media screen and (max-width: 1279px) {
   /* line 20, ../sass/jcarousel.scss */
   #bouton-prev {
     left: 10px;
-    background: url('images/slideshow/small_left.png?1370352018');
+    background: url('images/slideshow/small_left.png?1370689691');
   }
 }
 
@@ -51,13 +51,13 @@
   width: 17px;
   display: block;
   position: absolute;
-  background: url('images/slideshow/small_right.png?1370352018');
+  background: url('images/slideshow/small_right.png?1370689691');
   right: -10px;
 }
 @media screen and (max-width: 1279px) {
   /* line 35, ../sass/jcarousel.scss */
   #bouton-next {
     right: 10px;
-    background: url('images/slideshow/small_right.png?1370352018');
+    background: url('images/slideshow/small_right.png?1370689691');
   }
 }

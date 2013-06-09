@@ -1,6 +1,7 @@
   /* Visibility Classes ---------------------- */
   /*                                           */
   /* Standard (large) display targeting */
+
   .show-for-small,
   .show-for-medium,
   .show-for-medium-down,
@@ -53,6 +54,23 @@
 
   /* Small display targeting */
   @media only screen and (max-width: $screenSmall - 1) {
+
+    #banner-rotator {
+      display:none;
+    }
+    #container #research div.comparator_items, div.comparator_items {
+      position:fixed;
+      top:62%;
+      background: transparent;
+      right:0;
+      height:auto;
+
+    }
+    #research div.test_compare_trucks, div.test_compare_trucks {
+      top:40px;
+      right:0;
+      left:auto;
+    }
     .show-for-small,
     .hide-for-medium,
     .show-for-medium-down,
@@ -126,7 +144,7 @@
   }
 
   /* Covering almost all ----- */
-  @media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  @media only screen and (max-device-width: 784px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 784px), only screen and (max-width: 767px) {
     .flex-video { padding-top: 0; }
   }
 
@@ -368,16 +386,17 @@
               a { color: $topBarLinkColor; display: block; line-height: $topBarHeightMobile !important; padding-left: $topBarHeightMobile / 3; height: $topBarHeightMobile; }
             }
           }
+           .logo {height:70px; background-size: contain;}
           &:hover, &.active { a { color: $topBarDropLinkColor; } }
           a:not(.button) { color: $topBarDropLinkColor; }
 
           /* Dropdown Toggle */
           &.toggle-topbar { cursor: pointer; display: block; height: $topBarHeightMobile; position: absolute; right: 12px; top: 0; width:  $topBarHeightMobile;
-                             border:1px solid #999;
-            @include border-radius(6px);@include box-shadow(220 220 220 8px );
-            background-color:#0091CE;
-            a { @include cssTriangle($topBarNavToggleSize, #fff, top); padding: 0; position: absolute; top: 50%; right: $topBarHeightMobile / 2; margin-top: -($topBarNavToggleSize / 2); }
-            @if $topBarBreakPoint == 9999px { a { right: ($topBarHeight / 2) + ($columnGutter / 2);} }
+                             border:1px solid #000;
+            @include border-radius(80px);@include box-shadow(220 220 220 8px );
+            background-color:#111;
+            a { @include cssTriangle($topBarNavToggleSize, #fff, top); padding: 0; position: absolute; top: 50%; right:14px; margin-top: -($topBarNavToggleSize / 2); }
+            @if $topBarBreakPoint == 9999px { a { right: 12px;} }
             &:hover { background: #0091CE; }
           }
           &.toggle-topbar a { padding: 0 !important; }
@@ -441,7 +460,7 @@
         &.left, &.right { float: none; width: 100%;
           &>li { display: block; float: none; margin: 0 !important;
             &.has-dropdown {
-              .dropdown { left: 100% !important; top: 0; right: auto !important; }
+              .dropdown { left: 100% !important; top: 0; margin-top:0;light: auto !important; }
             }
           }
         }
@@ -458,15 +477,15 @@
     .top-bar ul > li.has-button {
       a.button { margin: 0; }
     }
-	
-    .top-bar ul li .logo{ 
+
+    .top-bar ul li .logo{
 	height:135px;
 	display:block;
 	}
 	.logoblock {
 	display:none;
 	}
- 
+
   }
 
 ul li .logo{

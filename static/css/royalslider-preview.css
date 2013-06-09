@@ -167,13 +167,13 @@
 }
 /* line 145, ../sass/royalslider-preview.scss */
 .royalSlider.default .arrow.left {
-  background: url('images/slideshow/arrow_left.png?1370352018');
+  background: url('images/slideshow/arrow_left.png?1370689691');
   left: -30px;
 }
 @media screen and (max-width: 1279px) {
   /* line 145, ../sass/royalslider-preview.scss */
   .royalSlider.default .arrow.left {
-    background: url('images/slideshow/arrow_left_min.png?1370352018');
+    background: url('images/slideshow/arrow_left_min.png?1370689691');
     left: 10px;
   }
 }
@@ -185,14 +185,14 @@
 }
 /* line 156, ../sass/royalslider-preview.scss */
 .royalSlider.default .arrow.right {
-  background: url('images/slideshow/arrow_right.png?1370352018');
+  background: url('images/slideshow/arrow_right.png?1370689691');
   right: -30px;
 }
 @media screen and (max-width: 1279px) {
   /* line 156, ../sass/royalslider-preview.scss */
   .royalSlider.default .arrow.right {
     right: 10px;
-    background: url('images/slideshow/arrow_right_min.png?1370352018');
+    background: url('images/slideshow/arrow_right_min.png?1370689691');
   }
 }
 @media screen and (max-width: 767px) {
@@ -203,7 +203,7 @@
 }
 /* line 170, ../sass/royalslider-preview.scss */
 .royalSlider .royalSlide {
-  background: url('images/slideshow/ombre.png?1370352018');
+  background: url('images/slideshow/ombre.png?1370689691');
   background-position: -20px 50%;
 }
 @media screen and (max-width: 767px) {

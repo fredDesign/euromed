@@ -312,9 +312,6 @@ margin-left:0px;
 .rainbowpanel {
   font-family: oswald;
   font-weight: 300;
-  -webkit-box-shadow: 0 0 40px black;
-  -moz-box-shadow: 0 0 40px black;
-  box-shadow: 0 0 40px black;
 			@include background(image-url("rainbow_gradient.png")
 					   );
 						border:none 0px #fff;
@@ -435,6 +432,8 @@ color:$yellow;
 		float:right;
 	} 
 	li {
+      clear:both;
+
 		padding:0px;
 		float:right;
 		margin-bottom:9px;
